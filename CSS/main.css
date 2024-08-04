@@ -1,0 +1,96 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+pre {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    margin: 0;
+}
+
+a {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(172, 222, 222);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.navDiv {
+    display: flex;
+    background-color: rgb(20, 110, 200);
+    justify-content: right;
+}
+
+div.titleDiv {
+    position: sticky;
+}
+
+textarea.search {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    max-lines: 1;
+    margin-left: 250px;
+    margin-right: 20px;
+    flex-grow: 6;
+    height: 15px;
+    resize: none;
+    align-self: center;
+    background-color: rgb(95, 175, 255);
+    color: rgb(172, 222, 222);
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+textarea.search::placeholder {
+    color: rgb(172, 222, 222);
+}
+
+header {
+    background-color: dodgerblue;
+    padding-bottom: 12px;
+}
+
+div.mainContent {
+    padding-top: 35px;
+    padding-bottom: 27px;
+}
+
+div.review {
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 30px;
+    background-color: rgb(158, 203, 203);
+}
+
+footer {
+    background-color: rgb(20, 110, 200);
+    padding-top: 20px;
+    padding-bottom: 12px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
+}
+
+body {
+    margin: 0;
+}
